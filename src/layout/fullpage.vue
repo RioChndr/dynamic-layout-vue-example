@@ -3,10 +3,10 @@
     <h1>Layout full page</h1>
     <ul>
       <li>
-        <router-link to="/">home</router-link>
+        <router-link to="/" v-todef="'/'">home</router-link>
       </li>
       <li>
-        <router-link to="/about">About</router-link>
+        <router-link to="/about" v-todef="'/about'">About</router-link>
       </li>
       <li>
         <router-link to="/me">Me</router-link>
