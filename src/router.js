@@ -23,6 +23,10 @@ export default new VueRouter({
       meta: {
         layout: () => import("./layout/special")
       }
+    },
+    {
+      path: '/chart',
+      component: () => import("./pages/charts.vue")
     }
   ]
 });
